@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/smb-test":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/smb-test","hostpath":"/home/marcus/Homestead/smb_test","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/marcus/Homestead/smb_test","disabled":false,"__vagrantfile":true}}}
