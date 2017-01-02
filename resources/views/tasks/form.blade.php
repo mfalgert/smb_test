@@ -9,11 +9,11 @@
 </div>
 
 @if ($show_checkbox)
-	<div class="form-group">
-	    {!! Form::label('done', 'Completed:') !!}
-	    {!! Form::hidden('done', 0) !!}
-	    {!! Form::checkbox('done', 1) !!}
-	</div>
+    <div class="form-group">
+        {!! Form::label('done', 'Completed:') !!}
+        {!! Form::hidden('done', 0) !!}
+        {!! Form::checkbox('done', 1) !!}
+    </div>
 @endif
  
 <div class="form-group">
