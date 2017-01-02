@@ -8,6 +8,6 @@
     {!! Form::close() !!}
 
     {!! Form::open(['class' => 'form-inline', 'method' => 'DELETE', 'route' => ['projects.destroy', $project->id]]) !!}
-    	{!! Form::submit('Delete Project', ['class' => 'btn btn-danger btn-xs']) !!}
-	{!! Form::close() !!}
+        {!! Form::submit('Delete Project', ['class' => 'btn btn-danger btn-xs']) !!}
+    {!! Form::close() !!}
 @endsection
